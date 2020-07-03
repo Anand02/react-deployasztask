@@ -1,7 +1,7 @@
 import React from "react";
 import { Modal, Button } from "antd";
-import { AddTodoForm } from './addtodo';
-import { AddUserForm } from './adduser';
+import { AddTodoForm } from './forms/addtodo';
+import { AddUserForm } from './forms/adduser';
 
 export class NewForm extends React.Component {
   render() {
